@@ -4,8 +4,8 @@ import java.io.Serializable;
 
 public class Department implements Serializable{  
 	
-	private static final long serialVersionUID = 1L;  // os objetos sao transformados em sequencia de bytes podendo ser trafegados
-	
+	private static final long serialVersionUID = 1L;  // os objetos sao transformados em sequencia de bytes podendo ser trafegados em rede e
+																					// gravados em arquivos
 	private Integer id;
 	private String name;
 	
