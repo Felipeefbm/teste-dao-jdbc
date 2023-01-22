@@ -11,7 +11,7 @@ public interface SellerDao {
 
 	void insert (Seller obj);  // vai inserir este objeto no banco de dados
 	void update (Seller obj);
-	void DeleteById (Integer id);
+	void deleteById (Integer id);
 	Seller findById(Integer id); 
 	List<Seller> findAll();
 	List<Seller> findByDepartment(Department department);
